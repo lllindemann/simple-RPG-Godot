@@ -10,7 +10,7 @@ Tiny Swords is a simple yet 2D role-playing game (RPG) developed using the Godot
 - Quests: Complete quests given by NPCs to progress the story.
 
 # Requirements
-- Godot Engine 3.2 or later
+- Godot Engine 4.2.1 or later
 - Operating System: Windows, macOS, or Linux
 
 # Acknowledgments
