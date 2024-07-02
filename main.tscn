@@ -1299,4 +1299,4 @@ scale = Vector2(0.6875, 0.664706)
 sprite_frames = SubResource("SpriteFrames_wewtm")
 animation = &"hit south"
 autoplay = "idle"
-frame_progress = 0.674853
+frame_progress = 0.614707
