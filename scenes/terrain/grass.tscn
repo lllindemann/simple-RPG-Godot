@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://v0v37bvw4ajs"]
+
+[ext_resource type="Texture2D" uid="uid://cddqd6s6u47nf" path="res://assets/Deco/11.png" id="1_730ld"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sujno"]
+
+[node name="Grass" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(529, 137)
+texture = ExtResource("1_730ld")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(532, 136)
+shape = SubResource("CapsuleShape2D_sujno")
