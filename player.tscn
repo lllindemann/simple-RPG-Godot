@@ -241,10 +241,10 @@ height = 46.0
 script = ExtResource("1_rupj1")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(433, 342)
+position = Vector2(9, 1)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(417, 344)
+position = Vector2(7, -1.18823)
 scale = Vector2(0.6875, 0.664706)
 sprite_frames = SubResource("SpriteFrames_wewtm")
 animation = &"hit south"
@@ -252,5 +252,5 @@ autoplay = "idle"
 frame_progress = 0.323396
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(413, 341)
+position = Vector2(3, -4.18823)
 shape = SubResource("CapsuleShape2D_m7n2i")
