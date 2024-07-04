@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://uk2pgtyhreq1"]
+[gd_scene load_steps=34 format=3 uid="uid://uk2pgtyhreq1"]
 
 [ext_resource type="Script" path="res://Player.gd" id="1_rupj1"]
 [ext_resource type="Texture2D" uid="uid://dpgfw04tbrvqv" path="res://assets/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="2_mpnqs"]
@@ -234,6 +234,9 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_m7n2i"]
+height = 46.0
+
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_rupj1")
 
@@ -247,3 +250,7 @@ sprite_frames = SubResource("SpriteFrames_wewtm")
 animation = &"hit south"
 autoplay = "idle"
 frame_progress = 0.323396
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(413, 341)
+shape = SubResource("CapsuleShape2D_m7n2i")
